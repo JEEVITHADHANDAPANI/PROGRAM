@@ -12,11 +12,11 @@ void main(){
     }
     if(count<3)
        {
-           printf("The given number is a prime number %d",num);
+           printf("%d is a prime number",num);
        }
     else
       {
-         printf("The given number is not a prime number %d",num);
+         printf("%d is not a prime number",num);
       }
     getch();
 }
