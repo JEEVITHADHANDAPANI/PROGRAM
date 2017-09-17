@@ -2,10 +2,10 @@
 #include<string.h>
 void main()
 {
-	int sum=0,l;
+	int sum=0,count=0,l,alpha;
 	char str[50];
-  printf("Enter the string");
-  gets(str);
+         printf("Enter the string");
+        gets(str);
 	l=strlen(str);
 	for(int i=0;i<=l;i++)
 	{
@@ -13,7 +13,7 @@ void main()
 		{
 		    sum=sum+1;
 		}
-    if(str[i]>='0'&&str[i]<='9')
+                if(str[i]>='0'&&str[i]<='9')
 		{
 		    count=count+1;
 		}
