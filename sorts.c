@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<string.h>
-int main(void)
+int main()
 {
 	int a[15],n;
 	int i,j;
@@ -11,6 +11,7 @@ int main(void)
   {
   scanf("%d",&a[i]);
   }
+	printf("sorted elements are");
 	for(i=0;i<=n;i++)
 	{
 		for(j=i+1;j<=n-1;j++)
@@ -27,7 +28,7 @@ int main(void)
 		}
 		}
 	}
-	for(i=0;i<4;i++)
+	for(i=0;i<n;i++)
 	{
 		printf("%d",a[i]);
 	}
