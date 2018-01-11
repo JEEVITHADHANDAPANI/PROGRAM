@@ -21,11 +21,7 @@ int main()
 			int t=a[i];
 			a[i]=a[j];
 			a[j]=t;
-		}
-		else
-		{
-			printf("%d",a[i]);
-		}
+			}
 		}
 	}
 	for(i=0;i<n;i++)
