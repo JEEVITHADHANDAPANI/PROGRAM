@@ -28,5 +28,6 @@ int main()
 	{
 		printf("%d",a[i]);
 	}
+	printf("Maximum element is %d",a[n]);
 	return 0;
 }
