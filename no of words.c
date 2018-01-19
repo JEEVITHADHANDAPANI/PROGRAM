@@ -2,7 +2,7 @@
 #include<string.h>
 int main(void) {
 	char a[25];
-  int word=0,l;
+  int word=1,l;
   printf("Enter the string");
   scanf("%d",a);
 	l=strlen(a);
