@@ -14,7 +14,10 @@ void main()
   }
   if(count>=3)
   {
-    printf("%d is a composite number",num);
+    printf("YES");
   }
-    
-}
+  else
+  {
+    printf("no");
+  }
+  }
