@@ -1,11 +1,11 @@
 #include<stdio.h>
-int main()
+void main()
 {
   float n;
   int res;
   printf("Enter the number");
   scanf("%f",&n);
-  res=n+0.5;
+  res=ceil(n);
   printf("%d",res);
   return 0;
 }
