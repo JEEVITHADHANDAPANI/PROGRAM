@@ -1,16 +1,16 @@
 #include <stdio.h>
 void main()
 {
-   int n1,n2,t;
+   int a,b,t;
    printf("Enter The two numbers");
-   scanf("%d%d",&n1,&n2);
-  if(n1>n2)
-  t=n1;
+   scanf("%d%d",&a,&b);
+  if(a>b)
+  t=a;
   else
-  t=n2;
-  while(n1!=0&&n2!=0)
+  t=b;
+  while(a!=0&&b!=0)
     {
-    if(n1%t==0&&n2%t==0)
+    if(a%t==0&&b%t==0)
     {
     break;
     }
